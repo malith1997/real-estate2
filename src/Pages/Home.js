@@ -6,6 +6,7 @@ import Rent1 from '../componets/rent';
 import Formm from '../componets/form';
 import Hero from '../componets/hero';
 import Footer from '../componets/footer';
+import RealEstatePromo from '../componets/RealEstatePromo';
 
 
 function Home() {

@@ -1,0 +1,752 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.title{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    transition: 1.2s;
+   
+    
+}
+
+.smal{
+    font-size: 24px;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    transition: 1.2s;
+}
+
+.big{
+    font-size: 26px;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    transition: 1.2s;
+}
+.container{
+    padding-top: 1%;
+    padding-bottom: 3%;
+    width: 100%;
+    background: url('../img/img2.png');
+
+}
+
+
+/* ----------------- */
+
+.dropdown {
+  
+  overflow: hidden;
+  transition: 1.8s;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px; 
+  border: none;
+  outline: none;
+  color: rgb(5, 5, 5);
+  padding: 14px 16px;
+  background-color: inherit;
+  margin-left: 80px;
+  font-family: 'Inter', sans-serif;
+  transition: 1.8s;
+  
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 80px;
+  font-family: 'Inter', sans-serif;
+  transition: 1.8s;
+  
+  
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 100px;
+  font-family: 'Inter', sans-serif;
+  transition: 1.8s;
+  
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: 1.8s;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  transition: 1.8s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: 1.8s;
+}
+
+
+/* -------------- */
+
+.containerse{
+
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  border-radius: 15px;
+  background-color: rgb(228, 228, 228);
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.containerhero{
+  padding-top: 1%;
+  padding-bottom: 3%;
+  width: 100%;
+  height: 60vh;
+  background: url('../img/hero.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+
+
+.imgelogo{
+  width: 4%;
+  
+}
+
+nav {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.nav11{
+
+  padding: 24px 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+nav a {
+  
+  float: left;
+  display: flex;
+  color: #398053;
+  text-align: center;
+  padding: 14px 66px;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 1.2s;
+}
+nav a:hover {
+  background-color: #398053;
+  color: rgb(255, 255, 255);
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 20px;
+  transition: 1.2s;
+}
+
+.containernav{
+  width: 100%;
+  
+}
+
+.container1{
+    width: 80%;
+
+}
+.sub{
+    font-size: 65px;
+    margin-top: -1%;
+    color: #236D3E;
+    font-weight: 500;
+    transition: 1.2s;
+
+}
+.mini{
+    font-size: 20px;
+    color: #398053;
+    transition: 1.2s;
+}
+
+.container3{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    
+}
+
+.container5{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.container7{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 90%;
+  
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center; /* Adjust as needed */
+    width: 80%;
+    max-width: 1200px;
+    
+  }
+  
+  .card {
+    width: 40%;
+    height: 500px;
+    background: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: 1.2s;
+    /* align-items: center; */
+  }
+
+  .card2 {
+    width: 80%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: rgb(234, 253, 237); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: 1.2s;
+    
+  }
+
+  .input{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    margin-right: 10px;
+    
+    
+  }
+
+  .inputhero{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    margin-right: 10px;
+    
+    
+  }
+
+  .ti{
+    font-size: 35px;
+    font-weight: 500;
+    color: #398053;
+    transition: 1.2s;
+  }
+
+  .para{
+    font-size: 15px;
+    font-weight: 400;
+    transition: 1.2s;
+  }
+
+  .imge{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+    transition: 1.2s;
+    
+    
+    
+  }
+
+  .price{
+    font-size: 24px;
+    color: #222222;
+    font-weight: 400;
+    transition: 1.2s;
+  }
+
+  .titlecd{
+    margin-top: -4%;
+    font-size: 28px;
+    color: #398053;
+    transition: 1.2s;
+
+  }
+
+  .address{
+    margin-top: -3%;
+    font-size: 20px;
+    color: #3f3f3f;
+    font-weight: 200;
+    transition: 1.2s;
+
+
+  }
+
+
+
+  /* -------------- */
+
+  .custom-button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+    transition: 1.2s;
+  }
+
+
+.navbar{
+  display: none;
+}
+
+.containerf{
+      display: flex;
+      height: 45vh;
+      background-color: #dfdfdf;
+}
+
+.itemf{
+  margin-top: 2%;
+  margin-right: 0px;
+  width: 100%;
+}
+.itemfl{
+  margin-top: 2%;
+  margin-left: 10%;
+  width: 100%;
+}
+
+
+.imgelogof{
+  width: 40%;
+}
+
+.flink{
+  font-size: 16px;
+  color: #222222;
+  font-weight: 500;
+  transition: 1.2s;
+}
+
+
+.containerlastf{
+  background-color: #236D3E;
+  padding: 8px;
+  display: flex;
+  
+}
+
+.copyright{
+  color: #ffffff;
+  font-weight: 400;
+  margin-left: 2%;
+}
+
+.imgsocial{
+ width: 50px;
+ height: 50px;
+  
+ 
+}
+
+.social{
+  display: flex;
+ 
+}
+
+.copy{
+  margin-right: 0px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+  /* --------------------- */
+
+  @media (max-width: 1279px) {
+
+    .dropdown .dropbtn {
+    
+      margin-left: 0px;
+      font-size: 16px;
+      
+      width: 200px;
+      border-radius: 15px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    /* Add your tablet styles here */
+    /* For example, adjust the layout for smaller screens */
+
+    .card-container {
+        display: grid;
+        justify-content: space-around; /* Adjust as needed */
+        align-items: center; /* Adjust as needed */
+        width: 80%;
+        
+      }
+      
+      .card {
+        width: 100%;
+        height: 650px; 
+        background: #ffffff; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        margin: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+      }
+
+
+      .containerse{
+
+        flex-direction: column; 
+        text-align: center;
+      
+      }
+
+
+      
+      .dropdown .dropbtn {
+    
+        margin-left: 0px;
+        font-size: 16px;
+        background-color: #f9f9f9;
+        width: 300px;
+        border-radius: 15px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+      }
+      
+      
+      
+      .dropdown-content {
+        margin-left: 0px;
+      }
+
+      .inputhero{
+        
+        margin-top: 10px;
+        padding: 12px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 80%;
+        margin-right: 0px;
+        border-radius: 15px;
+        
+        
+      }
+
+
+      .containerhero{
+        height: 80vh; 
+      
+      }
+
+      nav a {
+  
+        float: left;
+        display: flex;
+        color: #398053;
+        text-align: center;
+        padding: 1px 66px;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: 1.2s;
+      }
+
+      .imgelogo{
+        display: none;
+      }
+
+
+      .itemf{
+        margin-top: 2%;
+        margin-right: 40px;
+        width: 100%;
+      }
+      
+
+
+    
+  }
+  
+  /* For mobile devices */
+  @media (max-width: 480px) {
+    /* Add your mobile styles here */
+    /* For example, make elements stack or adjust font sizes for smaller screens */
+
+    .card-container {
+        display: grid;
+        justify-content: space-around; /* Adjust as needed */
+        align-items: center; /* Adjust as needed */
+        width: 80%;
+        
+      }
+      
+      .card {
+        width: 100%;
+        max-height: 500px;
+        height: 550px; 
+        background: #ffffff; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        margin: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+      }
+
+      .input{
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 10px;
+        width: 80%;
+        border: none;
+        margin-bottom: 10px;
+        
+        
+      }
+
+      
+
+      .containerse{
+
+        flex-direction: column; 
+        text-align: center;
+      
+      }
+
+
+      
+      .dropdown .dropbtn {
+    
+        margin-left: 0px;
+        font-size: 16px;
+        background-color: #f9f9f9;
+        width: 222px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 5%;
+
+      }
+      
+      
+      
+      .dropdown-content {
+        margin-left: 0px;
+      }
+
+      .inputhero{
+        
+        margin-top: 10px;
+        padding: 12px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 200px;
+        margin-right: 0px;
+        border-radius: 15px;
+        
+        
+      }
+
+
+      .containerhero{
+        height: 100vh; 
+      
+      }
+
+
+      .nav11{
+
+        padding: 10px 86px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      
+      }
+      
+      
+      nav a {
+        
+        float: left;
+        display: flex;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 25px;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: 1.2s;
+        background-color: #398053;
+        
+      }
+      nav a:hover {
+        background-color: #ffffff;
+        color: #398053;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 20px;
+        transition: 1.2s;
+        
+      }
+      
+      .containernav{
+        width: 100%;
+        
+        
+      }
+      .imgelogo{
+        display: none;
+      }
+
+
+
+
+      /* ---------------------------- */
+
+
+
+      .containerf{
+        display: flex;
+        flex-direction: column;
+        height: 105vh;
+        background-color: #dfdfdf;
+  }
+  
+  .itemf{
+    text-align: center;
+    
+  }
+ 
+  
+  .imgelogof{
+    display: none;
+      
+    
+  }
+   
+  .containerlastf{
+    background-color: #236D3E;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .copyright{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .imgsocial{
+   
+   width: 50px;
+   height: 50px;
+   display: none;
+   
+    
+   
+  }
+  
+
+
+
+      
+
+      
+      
+      
+      
+  }
+  
